@@ -8,13 +8,59 @@
 <body>
 <section layout:fragment="content">
     <!-- Content specific to home page -->
-    <h1>Welcome to the Home Page</h1>
-        <p>This is the content of the home page.</p>
-        <h2>
-            Hello, my name is Emanuel Alcala-Arredondo!
-        </h2>
-        <img src="images/professional-pic.jpg" alt="Professional Picture">
-        <p>Current IT Professional, aspiring Software Developer.</p>
+    <div class="center-container">
+        <div class="center-content mt-md">
+            <h1>
+                Hello,
+            </h1>
+            <h2>My name is <span class="color-primary">Emanuel Alcala-Arredondo!</span></h2>
+            <img class="portfolio-pic" src="/images/profesional-pic_scaled.jpg" alt="Professional Picture">
+            <p>Current IT Professional, aspiring Software Developer.</p>
+            <a href="https://www.linkedin.com/in/emanuel-alcala-arredondo/" target="_blank">
+                <img src="/images/linkedin.svg" class="icon-l" alt="Linkedin Icon">
+            </a>
+            <a href="https://github.com/Nuell-A" target="_blank">
+                <img src="/images/github-w.svg" class="icon" alt="Github Icon">
+            </a>
+        </div>
+        <div class="about-me-skills mt-xl ml-md mr-md">
+            <div class="card">
+                <h4 class="text-primary ml-md">Skills</h4>
+                <ul>
+                    <li>Communication</li>
+                    <li>Teamwork & Collaboration</li>
+                    <li>Fast Learner</li>
+                    <li>Agile/Scrum</li>
+                    <li>Problem-Solving/Troubleshooting</li>
+                    <li>Project Management</li>
+                </ul>
+            </div>
+            <div class="card mt-sm">
+                <h4 class="text-primary ml-md">Technical Skills</h4>
+                <ul>
+                    <li>Languages: Python, Java, C++, MySQL, JavaScript, HTML5&CSS</li>
+                    <li>Libraries/Frameworks: Flask, Django, Spring Boot, Bootstrap, Pygame, JavaFX/Swing</li>
+                    <li>Additional Skills: Git, Godot (Game Engine), VSCode, IntelliJ IDEA, Android Studio</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="flex-container mt-md">
+        <div class="about-me">
+            <h1 class="text-primary p-md">About Me</h1>
+            <p class="p-md">
+                I am passionate about software development. I enjoy the process of starting with an idea
+                and creating something you can see and/or interact with. I have been working towards my goal of
+                becoming a software developer since I was in the military (Air Force). During the military
+                I went to school when I could to get closer towards my B.S. in Computer Science which I now
+                proudly hold. I officially completed my degree when I separated from the military and finished
+                school in February 2024. Although, I completed my education, the learning never stopped. Working as an IT
+                Operations Engineer I have learned much more about the information technology field as a whole.
+                I have also continued to learn more about software development through books, personal projects, and more.
+            </p>
+        </div>
+
+    </div>
 </section>
 </body>
 </html>

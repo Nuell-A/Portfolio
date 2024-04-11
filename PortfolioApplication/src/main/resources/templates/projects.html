@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{base.html}">
+<head>
+    <meta charset="UTF-8">
+    <title>Emanuel - Projects</title>
+</head>
+<body>
+    <section layout:fragment="content">
+        <div class="project-initial mt-md ml-md">
+            <h1 class="color-primary text-xl">Projects</h1>
+        </div>
+        <div class="project-container card">
+            <div class="project mr-md">
+                <a href="https://github.com/Nuell-A/Capstone" target="_blank" class="project-title pl-md text-primary ml-sm">Quiz Game</a>
+                <ul class="tech-list">
+                    <li class="tech tech-item">Python</li>
+                    <li class="tech tech-item">Pygame</li>
+                    <li class="tech tech-item">MySQL</li>
+                    <li class="tech tech-item">Socket Programming</li>
+                    <li class="tech tech-item">Multi-threading</li>
+                </ul>
+            </div>
+            <div class="project-descr">
+                <p>This project was created using Python. It implements a client-server model. The clients interact with
+                    the UI which in turn sends requests to the server and the clients are able to handle the response from
+                    the server and act accordingly. The server handles the application logic. It initiates the connection
+                    with the database (MySQL), listens for connections and handles them (can handle multiple connections
+                    through multi-threading).</p>
+                    <p>Users can host or join sessions, once a session is joined there is lobby where players can chat real
+                    time. Once the host starts the game, players are moved to the quiz state where questions are shown and
+                    there is a timer with a score tracker. Lastly, when all questions are done, the results are shown with
+                    each player's score.</p>
+            </div>
+        </div>
+        <div class="project-container card">
+            <div class="project mr-md">
+                <a href="https://github.com/Nuell-A/BookStore-Flask" target="_blank" class="project-title pl-md text-primary ml-sm">Book Store</a>
+                <ul class="tech-list">
+                    <li class="tech tech-item">Python</li>
+                    <li class="tech tech-item">Flask</li>
+                    <li class="tech tech-item">HTML5&CSS</li>
+                    <li class="tech tech-item">Jinja</li>
+                    <li class="tech tech-item">Bootstrap</li>
+                    <li class="tech tech-item">MySQL</li>
+                    <li class="tech tech-item">Password Encryption</li>
+                </ul>
+            </div>
+            <div class="project-descr">
+                <p>This project was created with Python as a web application. Using the Flask web framework. The UI was
+                    created with HTML and Bootstrap CSS along with normal custom CSS. The back-end uses a MySQL server which
+                    holds the data for the books and users. MySQL data is managed through sqlalchemy (ORM). Passwords for
+                    user accounts are stored securely (hashed).
+                </p>
+                <p>Users can search books, add books to their cart, checkout their cart, login or create an account,
+                    return books, and logout.</p>
+            </div>
+        </div>
+        <div class="project-container card">
+            <div class="project mr-md">
+                <h3 class="project-title pl-md text-primary ml-sm">Portfolio</h3>
+                <ul class="tech-list">
+                    <li class="tech tech-item">Java</li>
+                    <li class="tech tech-item">Spring Boot</li>
+                    <li class="tech tech-item">HTML5&CSS</li>
+                    <li class="tech tech-item">Thymeleaf</li>
+                    <li class="tech tech-item">MVC</li>
+                    <li class="tech tech-item">Maven</li>
+                    <li class="tech tech-item">IntelliJ Idea</li>
+                </ul>
+            </div>
+            <div class="project-descr">
+                <p>This portfolio! To learn and get more familiar with Java frameworks for web development.
+                For this project I decided to use vanilla CSS instead of a framework like TailwindCSS or Bootstrap.
+                The reason for that was to get a better understanding of CSS so that I can see what's going on behind the
+                scenes when using a framework for more efficient development.</p>
+                <p>This Portfolio site shows my skills and projects completed. This Portfolio also showcases my eagerness to
+                learn new things and to put them to use as well.</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
