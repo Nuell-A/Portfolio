@@ -1,5 +1,5 @@
 # My Portfolio
-Created using Spring Boot. 
+Created using Spring Boot. Utlized Thymeleaf for easier HTML template management.
 
 What kind of information is included in my Portfolio website?
 - Projects completed.
