@@ -22,15 +22,19 @@
                 </ul>
             </div>
             <div class="project-descr">
-                <p>This project was created using Python. It implements a client-server model. The clients interact with
-                    the UI which in turn sends requests to the server and the clients are able to handle the response from
-                    the server and act accordingly. The server handles the application logic. It initiates the connection
-                    with the database (MySQL), listens for connections and handles them (can handle multiple connections
-                    through multi-threading).</p>
-                    <p>Users can host or join sessions, once a session is joined there is lobby where players can chat real
-                    time. Once the host starts the game, players are moved to the quiz state where questions are shown and
-                    there is a timer with a score tracker. Lastly, when all questions are done, the results are shown with
-                    each player's score.</p>
+                <p>Developed a client-server quiz game application. Users can host or join lobbies, chat, and play a quiz round.</p>
+                <ul>
+                    <li>Implemented backend server using Python to handle application logic, database interactions, and multiple connections
+                        through multi-threading.
+                    </li>
+                    <li>Created the client UI with Pygame, this enables users to interact with the game, send requests to the server, and
+                        handle responses.
+                    </li>
+                    <li>Used MySQL for database management to store questions, user scores, and game sessions.</li>
+                    <li>Real-time chat functionality in the game lobby by using socket programming.</li>
+                    <li>Designed a state machine to manage game states; menu, lobby, quiz, and results.</li>
+                    <li>Implemented error handling, logging, and a timer with score tracking.</li>
+                </ul>
             </div>
         </div>
         <div class="project-container card">
@@ -47,35 +51,83 @@
                 </ul>
             </div>
             <div class="project-descr">
-                <p>This project was created with Python as a web application. Using the Flask web framework. The UI was
-                    created with HTML and Bootstrap CSS along with normal custom CSS. The back-end uses a MySQL server which
-                    holds the data for the books and users. MySQL data is managed through sqlalchemy (ORM). Passwords for
-                    user accounts are stored securely (hashed).
+                <p>Created a web application for an online bookstore using the Flask framework. Users can login/logout, add items to 
+                    their cart, checkout, and return items. 
                 </p>
-                <p>Users can search books, add books to their cart, checkout their cart, login or create an account,
-                    return books, and logout.</p>
+                <ul>
+                    <li>Front-end designed with HTML/CSS and Bootstrap for a responsive and user-friendly interface.</li>
+                    <li>Employed Jinja for easy templating within Flask.</li>
+                    <li>Managed book and user data using MySQL and SQLAlchemy for database interactiosn.</li>
+                    <li>Implemented secure user authentication with hashed passwords to protect user data.</li>
+                    <li>Provided features such as book searching, cart management, checkout process, and user account creation/login.</li>
+                </ul>
             </div>
         </div>
         <div class="project-container card">
             <div class="project mr-md">
-                <h3 class="project-title pl-md text-primary ml-sm">Portfolio</h3>
+                <a href="#" class="project-title pl-md text-primary ml-sm">Portfolio</a>
                 <ul class="tech-list">
                     <li class="tech tech-item">Java</li>
                     <li class="tech tech-item">Spring Boot</li>
                     <li class="tech tech-item">HTML5&CSS</li>
                     <li class="tech tech-item">Thymeleaf</li>
-                    <li class="tech tech-item">MVC</li>
                     <li class="tech tech-item">Maven</li>
-                    <li class="tech tech-item">IntelliJ Idea</li>
+                    <li class="tech tech-item">Docker</li>
                 </ul>
             </div>
             <div class="project-descr">
-                <p>This portfolio! To learn and get more familiar with Java frameworks for web development.
-                For this project I decided to use vanilla CSS instead of a framework like TailwindCSS or Bootstrap.
-                The reason for that was to get a better understanding of CSS so that I can see what's going on behind the
-                scenes when using a framework for more efficient development.</p>
-                <p>This Portfolio site shows my skills and projects completed. This Portfolio also showcases my eagerness to
-                learn new things and to put them to use as well.</p>
+                <p>THIS personal portfolio website to showcase skills and projects. </p>
+                <ul>
+                    <li>Utilized Spring boot for backend to handle dynamic content to server web pages.</li>
+                    <li>Designed Front-end using vanilla CSS for custom styling, improving my understanding of CSS fundamentals.</li>
+                    <li>Integrated Thymeleaf HTML templating to render content.</li>
+                    <li>Managed project dependencies and build process with Maven.</li>
+                    <li>Containerized this application using Docker for easy deployment.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="project-container card">
+            <div class="project mr-md">
+                <a href="#" class="project-title pl-md text-primary ml-sm">Mileage Tracker</a>
+                <ul class="tech-list">
+                    <li class="tech tech-item">Dart</li>
+                    <li class="tech tech-item">Flutter</li>
+                    <li class="tech tech-item">SQFlite</li>
+                    <li class="tech tech-item">Geolocator</li>
+                    <li class="tech tech-item">iOS/Android Simulators</li>
+                </ul>
+            </div>
+            <div class="project-descr">
+                <p>Developed a cross-platform mobile application using Flutter to track mileage for individual contractors for tax purposes.</p>
+                <ul>
+                    <li>Used Dart for writing the application code, ensuring cross-platform compatibility.</li>
+                    <li>Integrated SQFlite for local storage of mileage data, enabling offline functionality.</li>
+                    <li>Implemented Geolocator to access GPS data for auto mileage tracking.</li>
+                    <li>Tested application using iOS and Android simulators to ensure performance.</li>
+                    <li>Focused on creating usefule features and a user-friendly interface.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="project-container card">
+            <div class="project mr-md">
+                <a href="https://github.com/Nuell-A/MovieNight" target="_blank" class="project-title pl-md text-primary ml-sm">Screen-Sharing Application</a>
+                <ul class="tech-list">
+                    <li class="tech tech-item">Python</li>
+                    <li class="tech tech-item">Flask</li>
+                    <li class="tech tech-item">JavaScript</li>
+                    <li class="tech tech-item">HTML&CSS</li>
+                    <li class="tech tech-item">WebRTC</li>
+                    <li class="tech tech-item">SocketIO</li>
+                </ul>
+            </div>
+            <div class="project-descr">
+                <p>Developed a real-time screen-sharing application that enables users to share their screen with others over the internet.</p>
+                <ul>
+                    <li>Implemented backend using Python and Flask to handle session management and client-server communication.</li>
+                    <li>Used SocketIO for real-time, bi-directional communication between server and clietns ensuring low-latency interactions.</li>
+                    <li>Leveraged WebRTC for peer-to-peer screen sharing and video/audio streaming, ensuring hight quality and secure media transmission.</li>
+                    <li>Front-end built with JavaScript and HTML/CSS.</li>
+                </ul>
             </div>
         </div>
     </section>
